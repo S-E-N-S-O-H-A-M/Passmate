@@ -1,0 +1,9 @@
+import random
+
+Upper_case=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+Lower_case=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+symbol=['!','@','#','$','%','^','&','*']
+
+passw=random.choice(Upper_case) + random.choice(Lower_case)  + random.choice(Lower_case)  + random.choice(Lower_case)  + random.choice(Lower_case)   + str(random.randint(10,99)) + random.choice(symbol)
+
+print(passw)
